@@ -13,8 +13,13 @@ def test_suma():
 
 def test_resta():
     assert resta(5, 2) == 3
-    assert resta(1, 1) == 1
+    assert resta(1, 1) == 0
     assert resta(-3, 31) == -4
+
+def test_multiplicacion():
+    assert multiplicacion(2, 3) == 6
+    assert multiplicacion(6, 4) == 24
+    
 
 
 
